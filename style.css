@@ -1,0 +1,101 @@
+body {
+    background-color: bisque;
+    margin: 15px 50px;
+}
+
+
+hr {
+    border: dashed 1px #000000;
+}
+.logo {
+    width: 120px;
+}
+
+.first-li {
+    display: inline;
+    padding-left: 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+    
+}
+
+ul {
+    float: right;
+    margin: 50px 30px;  
+}
+
+.home {
+    color: red;
+}
+
+a:not(.home) {
+    text-decoration: none;
+}
+
+.first-div {
+    margin-top: 10px;
+    background-image: url('images/banniere.svg');
+    height: 200px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.first-div > .img-text {
+    background-color: rgba(255, 255, 255, 0.452);
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    font-weight: bold;
+}
+
+button {
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(145, 19, 19);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.item-1 {
+    margin-right: 120px;
+
+}
+
+.item-2 {
+    background-color: gray;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item-2 > p, h2 {
+    color: white;
+}
+
+.rs {
+    color: white;
+    margin: 10px;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vscode {
+    width: 200px;
+}
+
+
